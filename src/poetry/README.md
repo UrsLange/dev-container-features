@@ -7,7 +7,7 @@ Installs poetry, using the official poetry installer.
 
 ```json
 "features": {
-    "ghcr.io/jobrad-gmbh/devex-dev-container-features/poetry:1": {}
+    "ghcr.io/UrsLange/dev-container-features/poetry:2": {}
 }
 ```
 
@@ -15,11 +15,11 @@ Installs poetry, using the official poetry installer.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| poetry_home | Path where poetry should be installed. | string | - |
+| poetry_home | Path where poetry should be installed. | string | /opt/poetry |
 | poetry_version | Poetry version to install. | string | 1.8.5 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/jobrad-gmbh/devex-dev-container-features/blob/main/src/poetry/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/UrsLange/dev-container-features/blob/main/src/poetry/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
